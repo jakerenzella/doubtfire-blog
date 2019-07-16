@@ -3,7 +3,7 @@ module.exports = {
     title: `The Burndown`,
     author: [`Jake Renzella`, `Andrew Cain`],
     description: `Get updates and annoucements from the Doubtfire team.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://blog.doubtfire.io/`,
     social: {
       twitter: `jakerenzella`,
     },
@@ -57,11 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `The Burndown`,
+        short_name: `The Doubfire Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#da532c`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
