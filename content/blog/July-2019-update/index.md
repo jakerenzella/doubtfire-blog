@@ -4,7 +4,7 @@ date: "2019-07-15T22:40:32.169Z"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 
-Welcome to the July 2019 update to Doubtfire. There are a number of significant feature enhancements in this realease which we hope you will like. Some of the key highlights are:
+Welcome to the July 2019 update to Doubtfire. There are a number of significant feature enhancements in this release which we hope you will like. Some of the key highlights are:
 
 * [Extensions Rework](#extensions) - Students can now request extensions per task, which are approved or denied by the tutor.
 * [Discussions](#discussions) - Tutors can record and request Doubtfire to discuss a task with a student in real time, using the tutor's pre-recorded prompts.

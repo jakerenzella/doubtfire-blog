@@ -40,7 +40,7 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(0.5),
       }}
     >
       <Image
@@ -58,10 +58,6 @@ const Bio = () => {
       />
       <p>
         The Burndown is the official Doubtfire Blog, Written by <strong>{author[0]}</strong> and <strong>{author[1]}</strong> who live and work in Melbourne Australia, building Doubtfire and other projects.
-        {` `}
-        {/* <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a> */}
       </p>
     </div>
   )
