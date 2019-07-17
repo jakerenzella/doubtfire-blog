@@ -9,6 +9,8 @@ Welcome to the July 2019 update to Doubtfire. There are a number of significant 
 * [Extensions Rework](#extensions) - Students can now request extensions per task, which are approved or denied by the tutor.
 * [Discussions](#discussions) - Tutors can record and request Doubtfire to discuss a task with a student in real time, using the tutor's pre-recorded prompts.
 * [Task Status History](#tsc) - Easily see the history of a task's progression over time.
+* [Smart Task Order](#taskorder) - Smart ordering of tasks in the student task list.
+* [Reworked Date Handling](#times) - All task-related dates such as due dates and deadlines are now the end of the day in the *Anywhere on earth* timezone.
 
 And if you want a peek under the hood...
 * [Platform Updates](#development) -- We are on our way to a full rewrite in modern angular and TypeScript, with this version deploying Angular 8.
@@ -47,6 +49,14 @@ The discussion feature will will be improved over time with your help and feedba
 ## <a name="tsc"></a> Task Status Comments
 Task status change history will now be recorded in the task comment panel to better show the history of a task's progression at a glance.
 ![Student Requesting Extension in Doubtfire](./task-history.png)
+
+## <a name="taskorder"></a> Smart Task Order
+Student task list is no longer simply sorted by the start date, it now takes into account
+
+## <a name="times"></a> Date handling
+Task due dates and deadlines are no longer 9am local time to the Doubtfire server. This could lead to confusion with time zones, daylight savings, and with deadlines being up to and/or on the hour.
+
+Now, all due dates and deadlines are simply listed in Doubtfire as a day, for example `July 12`. The timezone of this day is set to the Anywhere on Earth Timezone, which is the moment which that day has passed in every time zone in the world. This means that in Melbourne, Australia students would realistically have a few hours into the 13th of July before the task is now past the due date/deadline.
 
 ## <a name="development"></a> Various Typescript/Angular platform upgrades
 * Upgrade to angular 8.
