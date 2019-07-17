@@ -13,6 +13,7 @@ Welcome to the July 2019 update to Doubtfire. There are a number of significant 
 * [Reworked Date Handling](#times) - All task-related dates such as due dates and deadlines are now the end of the day in the *Anywhere on earth* timezone.
 
 And if you want a peek under the hood...
+
 * [Platform Updates](#development) -- We are on our way to a full rewrite in modern angular and TypeScript, with this version deploying Angular 8.
 
 
@@ -51,7 +52,9 @@ Task status change history will now be recorded in the task comment panel to bet
 ![Student Requesting Extension in Doubtfire](./task-history.png)
 
 ## <a name="taskorder"></a> Smart Task Order
-Student task list is no longer simply sorted by the start date, it now takes into account
+We've reworked the way the student task list orders tasks. It no longer simply sorts by the start date/task level.
+
+Tasks are now ordered based on the initial sequence, then by the due date and grade. As the teaching perioid progressed, Doubtfire will reorder tasks based off priority - so late Pass tasks come ahead of earlier Credit tasks. This is to ensure students complete pass tasks before spending time on `Credit`, `Distinction` or `High Distinction` tasks.
 
 ## <a name="times"></a> Date handling
 Task due dates and deadlines are no longer 9am local time to the Doubtfire server. This could lead to confusion with time zones, daylight savings, and with deadlines being up to and/or on the hour.
