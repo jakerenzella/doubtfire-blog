@@ -36,12 +36,17 @@ const Layout = ({ location, title, children }) => {
           marginTop: 0,
         }}
       >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Doubtfire.
-        </footer>
-      </div>
+        <Link
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          {title}
+        </Link>
+      </h3>
     )
   }
   return (
@@ -56,9 +61,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        © {new Date().getFullYear()} Doubtfire, Built by Jake Renzella
       </footer>
     </div>
   )
