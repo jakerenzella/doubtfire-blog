@@ -1,10 +1,10 @@
 ---
 title: Introducing Discussion Comments
 date: "2019-08-06T15:40:32.169Z"
-description: Introducing Discussion Comments to Doubtfire.
+description: Introducing The Discussion Comments feature to Doubtfire, a new way to gather real-time student responses.
 ---
 
-![Image of a discussion](./undraw_conversation_h12g.png)
+![Image of a discussion](./conversation.png)
 
 Intelligent Discussions are a new feature in Doubtfire designed to facilitate scalable, real-time student-tutor discussions.
 
@@ -25,5 +25,7 @@ Doubtfire will create a special task comment using these prompts. When the stude
 Students will not have access to the prompts before their response is recorded, so you can feel confident you are receiving authentic responses.
 
 Intelligent Discussions are designed to provide more support for <strong>discussion</strong>, not to replace assessment or student feedback.
+
+You can use the discussion comment feature starting today, by clicking the microphone button at the comment section, and selecting "Create Discussion", then following the steps.
 
 The discussion feature will be improved over time with your help and feedback and is the subject of a research project.
