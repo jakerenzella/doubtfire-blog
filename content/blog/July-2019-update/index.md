@@ -1,7 +1,7 @@
 ---
 title: July 2019 Update
 date: "2019-07-15T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: The Doubtfire July 2019 Update.
 ---
 
 Welcome to the July 2019 update to Doubtfire. There are a number of significant feature enhancements in this release which we hope you will like. Some of the key highlights are:
@@ -25,10 +25,12 @@ Students are required to provide a short reason, and an approved extension durat
 ![Student Requesting Extension in Doubtfire](./request-extension.png)
 
 Tutors will receive the request in their task inbox to assess as a comment on the task.
-![Student Requesting Extension in Doubtfire](./extension-response.png)
+
+![Extension response](./extension-response.png)
 
 The history of requests and responses will be recoreded in the task comment panel, with the status (accepted/denied).
-![Student Requesting Extension in Doubtfire](./extension-history.png)
+
+![Extension history](./extension-history.png)
 
 If a tutor denies an extension request, the submission will be placed on the <strong>Time Exceeded</strong> state, which means the submission will not arrive in the tutor's marking inbox.
 
@@ -36,20 +38,22 @@ If a tutor denies an extension request, the submission will be placed on the <st
 Intelligent Discussions are a new feature in Doubtfire designed to facilitate scalable, real-time student-tutor discussions.
 
 Doubtfire allows tutors to record up to 3 discussion prompts. For example, you could ask "How did you go about solving step 1.3 in this task?", "What tools did you use?".
-![Student Requesting Extension in Doubtfire](./record-discussion-prompt.gif)
+
+![Recording a discussion prompt](./record-discussion-prompt.gif)
 
 Doubtfire will create a special task comment using these prompts. When the student begins the discussion, Doubtfire will record audio while the prompt is being played in real-time.
-![Student Requesting Extension in Doubtfire](./student-discussion.gif)
+
+![Students responding to a discussion](./student-discussion.gif)
 
 Students will not have access to the prompts before their response is recorded, so you can feel confident you are receiving authentic responses.
 
 Intelligent Discussions are designed to provide more support for <strong>discussion</strong>, not to replace assessment or student feedback.
 
-The discussion feature will will be improved over time with your help and feedback, and is the subject of a research project.
+The discussion feature will be improved over time with your help and feedback, and is the subject of a research project.
 
 ## <a name="tsc"></a> Task Status Comments
 Task status change history will now be recorded in the task comment panel to better show the history of a task's progression at a glance.
-![Student Requesting Extension in Doubtfire](./task-history.png)
+![Doubtfire task history](./task-history.png)
 
 ## <a name="taskorder"></a> Smart Task Order
 We've reworked the way the student task list orders tasks. It no longer simply sorts by the start date/task level.
