@@ -25,21 +25,21 @@ And if you want a peek under the hood...
 Campus support categorises students based on their campus location, or cloud. It supports mixed campus-based and online-based students, and can ensure students of one campus can not move into tutorials of another campus.
 
 <p align="center">
-  <img src="./campus.png"></img>
+  <img alt="campuses" src="./campus.png"></img>
 </p>
 
 ## <a name="streams"></a> Tutorials Streams
 Tutorial streams allow you to support multiple tutorial types within a unit. For example, a unit like Introduction to Programming could have a practical, workshop and a tutorial all running for different student types. These are optional, so if a unit only has one type of tutorial then you can leave this setting unset. This feature is particularly useful for units with mixed campus and online cohorts.
 
 <p align="center">
-  <img src="./streams.png"></img>
+  <img alt="streams" src="./streams.png"></img>
 </p>
 
 ## <a name="capacity"></a> Tutorial Capacity
 Tutorials can optionally have their capacity set, and will not allow students to transfer.
 
 <p align="center">
-  <img src="./capacity.png"></img>
+  <img alt="capacity" src="./capacity.png"></img>
 </p>
 
 ## <a name="extensions"></a> Extension Changes
@@ -55,7 +55,7 @@ Smart syncing supports deep integrations with your institution's settings to syn
 You can now reply to individual comments within a task panel, useful for when you are responding to a number of comments at once. Simple click the reply button next to a comment and start your response. You can respond to and with text, audio or image comments!
 
 <p align="center">
-  <img src="./reply.gif"></img>
+  <img alt="comment replies" src="./reply.gif"></img>
 </p>
 
 ## <a name="development"></a> Platform Updates and Optimisations
